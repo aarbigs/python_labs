@@ -6,3 +6,7 @@ Write the necessary code to display the follow message to the console
 	Coding here I come!
 
 '''
+
+"""I'm a programmer now.
+    Yeehaw!
+    Coding here I come!"""
