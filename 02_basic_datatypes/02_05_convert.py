@@ -10,3 +10,16 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+a = 10
+b = float(a)
+print(type(b))
+c = "10"
+d = int(c)
+print(type(d))
+e = 5.0/2
+print(type(e))
+
+f = int(input("Please enter one number: "))
+g = int(input("Please enter another number: "))
+print(f*g)
