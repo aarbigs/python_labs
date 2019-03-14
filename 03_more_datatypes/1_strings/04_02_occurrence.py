@@ -7,3 +7,8 @@ Letter input: o
 Result: 4
 
 '''
+
+string_input = input("Please enter a string: ")
+letter_input = input("Please enter a letter in the string to find: ")
+
+print(string_input.find(letter_input))
