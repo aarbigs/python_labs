@@ -8,3 +8,12 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+
+for i in range(0, 41, 10):
+    print()
+    for n in range(0, 10):
+        print(i + n, (i+1)+n, (i+2)+n, (i+3)+n, (i+4)+n, (i+5)+n, (i+6)+n, (i+7)+n, (i+8)+n)
+    print(" ")
+
+# I'm not sure how to get this to work?
+    
