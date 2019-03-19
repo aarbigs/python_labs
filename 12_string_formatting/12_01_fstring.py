@@ -18,3 +18,18 @@ famous_quotes = [
     {"full_name": "Nathan Myhrvold", "quote": "Software is a gas; it expands to fill its container."},
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
+
+'''for dic in famous_quotes:
+    for key, value in dic.items():
+        print(key, value)
+        '''
+names = [li['full_name'] for li in famous_quotes]
+quotes = [li['quote'] for li in famous_quotes]
+print(names)
+print(quotes)
+
+for key in famous_quotes:
+    for v in famous_quotes[key]:
+        print(names)
+
+# I'm very confused by this assignment :/ nested for loops and f string formatting
