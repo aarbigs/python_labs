@@ -23,13 +23,20 @@ famous_quotes = [
     for key, value in dic.items():
         print(key, value)
         '''
-names = [li['full_name'] for li in famous_quotes]
-quotes = [li['quote'] for li in famous_quotes]
-print(names)
-print(quotes)
 
-for key in famous_quotes:
-    for v in famous_quotes[key]:
-        print(names)
+#"The inspiring quote" - Lastname, Firstname
+quote_dict = {}
+for i in famous_quotes:
+    for key, value in i.items():
+            print(value)
+# name_dic = {}
+# for i in famous_quotes:
+#     name_dic[i] = ['full_name'].split()
+#     print(name_dic[i])
 
-# I'm very confused by this assignment :/ nested for loops and f string formatting
+# for dictionary in famous_quotes:
+#     print(f"{dictionary['quote']} - {dictionary['full_name'].split()} ")
+
+
+
+
