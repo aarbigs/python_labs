@@ -9,3 +9,17 @@ folder name with a bigger folder. This program should work for any specified fol
 
 
 '''
+
+import os
+cwd = os.getcwd()
+print(cwd)
+print(os.path.abspath('words.txt'))
+# count = 0
+# for(dirname, dirs, files) in os.walk('.'):
+#     for filename in files:
+#         if filename.endswith('.jpg'):
+#             count += 1
+#
+# print(files, count)
+
+'''I'm having trouble changing the directory to begin this problem?'''
