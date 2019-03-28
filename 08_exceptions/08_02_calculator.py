@@ -8,3 +8,13 @@ the script should handle:
 Test it and make sure it does not crash when you enter incorrect values.
 
 '''
+
+
+try:
+    num1 = int(input("Please enter a number: "))
+    num2 = int(input("Please enter another number: "))
+    print(num1/num2)
+except ZeroDivisionError as zde:
+    print("Error due to: ",zde)
+except ValueError:
+    print("value error")
