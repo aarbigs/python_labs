@@ -27,8 +27,12 @@ famous_quotes = [
 #"The inspiring quote" - Lastname, Firstname
 quote_dict = {}
 for i in famous_quotes:
-    for key, value in i.items():
-            print(value)
+    # for key, value in i.items():
+    full_name_split = i["full_name"].split()
+    last_name = full_name_split[1]
+    first_name = full_name_split[0]
+    quote = i["quote"]
+    print(f'"{quote}" {last_name}, {first_name}')
 # name_dic = {}
 # for i in famous_quotes:
 #     name_dic[i] = ['full_name'].split()

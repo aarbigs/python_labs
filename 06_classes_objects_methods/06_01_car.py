@@ -16,9 +16,8 @@ class Car:
         self.year = year
         self.max_speed = max_speed
 
-    def inc_speed(self, max_speed):
+    def inc_speed(self):
         self.max_speed = self.max_speed + 5
-        return self.max_speed
 
     def print_details(self):
         print(f"{self.model} {self.year} {self.max_speed}")
