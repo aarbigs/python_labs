@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e52601a0-6708-488a-9a40-2235ac179f9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_variable_arguments/15_01_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/15_variable_arguments/15_01_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_decorators/16_01_wrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_decorators/16_01_wrap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,28 +16,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/17_generators/17_01_generators.py">
+        <entry file="file://$PROJECT_DIR$/05_functions/05_02_rps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/15_variable_arguments/15_01_args.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="-8">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_functions/05_02_rps.py">
+        <entry file="file://$PROJECT_DIR$/15_variable_arguments/15_02_kwargs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="150">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/16_decorators/16_01_wrap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12_string_formatting/12_01_fstring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -56,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02_basic_datatypes/02_05_convert.py" />
-        <option value="$PROJECT_DIR$/02_basic_datatypes/02_06_invest.py" />
         <option value="$PROJECT_DIR$/03_more_datatypes/1_strings/04_01_replace.py" />
         <option value="$PROJECT_DIR$/03_more_datatypes/1_strings/04_02_occurrence.py" />
         <option value="$PROJECT_DIR$/03_more_datatypes/1_strings/04_03_vowel.py" />
@@ -107,11 +113,14 @@
         <option value="$PROJECT_DIR$/14_list_comprehensions/14_02_positive.py" />
         <option value="$PROJECT_DIR$/17_generators/17_01_generators.py" />
         <option value="$PROJECT_DIR$/15_variable_arguments/15_01_args.py" />
+        <option value="$PROJECT_DIR$/15_variable_arguments/15_02_kwargs.py" />
+        <option value="$PROJECT_DIR$/16_decorators/16_01_wrap.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="42" />
+    <option name="x" value="135" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="687" />
   </component>
@@ -131,7 +140,7 @@
             <path>
               <item name="labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="15_variable_arguments" type="462c0819:PsiDirectoryNode" />
+              <item name="16_decorators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,28 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.15_02_kwargs">
-    <configuration name="14_01_comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="labs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_list_comprehensions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_list_comprehensions/14_01_comprehension.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.16_01_wrap">
     <configuration name="14_02_positive" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,6 +228,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="16_01_wrap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_decorators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_decorators/16_01_wrap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="17_01_generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.16_01_wrap" />
         <item itemvalue="Python.15_02_kwargs" />
         <item itemvalue="Python.15_01_args" />
         <item itemvalue="Python.17_01_generators" />
         <item itemvalue="Python.14_02_positive" />
-        <item itemvalue="Python.14_01_comprehension" />
       </list>
     </recent_temporary>
   </component>
@@ -302,15 +311,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="42" width="1280" height="687" extended-state="0" />
-    <editor active="true" />
+    <frame x="135" y="23" width="1280" height="687" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22478157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22478157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,20 +337,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added &quot;hello world&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_more_datatypes/2_lists/04_10_unique.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_more_datatypes/2_lists/04_07_duplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_more_datatypes/2_lists/04_11_split.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -597,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12_string_formatting/12_01_fstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10_venvs/10_01_venv.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -649,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_functions/05_02_rps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/17_generators/17_01_generators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -665,8 +645,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/15_variable_arguments/15_01_args.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_functions/05_02_rps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_variable_arguments/15_02_kwargs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_string_formatting/12_01_fstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_decorators/16_01_wrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
