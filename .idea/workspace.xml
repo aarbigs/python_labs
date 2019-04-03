@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e52601a0-6708-488a-9a40-2235ac179f9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/16_decorators/16_01_wrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_decorators/16_01_wrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_lambdas/18_01_first_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_lambdas/18_01_first_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_lambdas/18_02_return.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_lambdas/18_02_return.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05_functions/05_02_rps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="270">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
@@ -33,11 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/16_decorators/16_01_wrap.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/18_lambdas/18_01_first_lambda.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/18_lambdas/18_02_return.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="30" selection-end-column="23" />
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -45,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_string_formatting/12_01_fstring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="510">
               <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
             </state>
           </provider>
@@ -64,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03_more_datatypes/1_strings/04_01_replace.py" />
-        <option value="$PROJECT_DIR$/03_more_datatypes/1_strings/04_02_occurrence.py" />
         <option value="$PROJECT_DIR$/03_more_datatypes/1_strings/04_03_vowel.py" />
         <option value="$PROJECT_DIR$/03_more_datatypes/1_strings/04_04_most_characters.py" />
         <option value="$PROJECT_DIR$/03_more_datatypes/1_strings/04_05_slicing.py" />
@@ -115,6 +133,8 @@
         <option value="$PROJECT_DIR$/15_variable_arguments/15_01_args.py" />
         <option value="$PROJECT_DIR$/15_variable_arguments/15_02_kwargs.py" />
         <option value="$PROJECT_DIR$/16_decorators/16_01_wrap.py" />
+        <option value="$PROJECT_DIR$/18_lambdas/18_01_first_lambda.py" />
+        <option value="$PROJECT_DIR$/18_lambdas/18_02_return.py" />
       </list>
     </option>
   </component>
@@ -140,7 +160,7 @@
             <path>
               <item name="labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="16_decorators" type="462c0819:PsiDirectoryNode" />
+              <item name="18_lambdas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,28 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.16_01_wrap">
-    <configuration name="14_02_positive" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="labs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_list_comprehensions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_list_comprehensions/14_02_positive.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.18_02_return">
     <configuration name="15_01_args" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,7 +248,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17_01_generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="18_01_first_lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,11 +256,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_generators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_lambdas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_generators/17_01_generators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_lambdas/18_01_first_lambda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="18_02_return" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_lambdas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_lambdas/18_02_return.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.18_02_return" />
+        <item itemvalue="Python.18_01_first_lambda" />
         <item itemvalue="Python.16_01_wrap" />
         <item itemvalue="Python.15_02_kwargs" />
         <item itemvalue="Python.15_01_args" />
-        <item itemvalue="Python.17_01_generators" />
-        <item itemvalue="Python.14_02_positive" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +321,7 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -338,20 +358,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added &quot;hello world&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_more_datatypes/2_lists/04_11_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_more_datatypes/2_lists/04_09_flatten.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_more_datatypes/3_tuples/04_12_list_to_tuple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -653,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05_functions/05_02_rps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="270">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
@@ -667,15 +673,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12_string_formatting/12_01_fstring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="510">
           <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/16_decorators/16_01_wrap.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_lambdas/18_01_first_lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_lambdas/18_02_return.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="30" selection-end-column="23" />
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
