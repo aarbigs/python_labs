@@ -14,12 +14,16 @@ import os
 cwd = os.getcwd()
 print(cwd)
 print(os.path.abspath('words.txt'))
-# count = 0
-# for(dirname, dirs, files) in os.walk('.'):
-#     for filename in files:
-#         if filename.endswith('.jpg'):
-#             count += 1
-#
-# print(files, count)
+count = 0
+file_list = []
+for(dirname, dirs, files) in os.walk('/Users/aaronbigelow'):
+    # print(f"The dir name is{dirname}")
+    # print(f"The directory is {dirs}")
+    # print(f"The file is {files}")
+    for filename in files:
+        if filename.endswith('.jpg'):
+            count += 1
+            print(count)
 
-'''I'm having trouble changing the directory to begin this problem?'''
+# print( count)
+

@@ -7,7 +7,7 @@ user_input = "hello"
 new_dict = {}
 #result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
-for i in list(user_input):
+for i in user_input:
     new_dict[i] = user_input.count(i)
 
 print(new_dict)
