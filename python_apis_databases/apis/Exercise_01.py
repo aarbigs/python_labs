@@ -28,8 +28,14 @@ params = {
 data = response.json()
 pprint(data)
 
-for k in (data['data'].keys):
-    print(k)
-# print(data['data'][2]['first_name'])
+#This prints the 'first_name' in the 0 element(1st dictionary) of data
+print(data['data'][0]['first_name'])
+
+#but I can't figure out how to print the 'first_name' of each in the list of dictionaries?
+for dict in data['data']:
+    for key in dict:
+        print(dict[key])
+
+
 
 
