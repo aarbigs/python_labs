@@ -15,12 +15,21 @@ Print out:
 
 import requests
 from pprint import pprint
-
+#
 base_url = "http://demo.codingnomads.co:8080/tasks_api/users"
+response = requests.get(base_url)
+# print(response.status_code)
 
-respone = requests.get(base_url)
+params = {
+    "email": "ryan@codingnomads.co"
+}
 
-pprint(respone)
 
+data = response.json()
+pprint(data)
+
+for k in (data['data'].keys):
+    print(k)
+# print(data['data'][2]['first_name'])
 
 
