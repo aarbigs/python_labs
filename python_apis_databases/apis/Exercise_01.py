@@ -33,7 +33,7 @@ print(data['data'][0]['first_name'])
 
 #but I can't figure out how to print the 'first_name' of each in the list of dictionaries?
 for dict in data['data']:
-    for key in dict:
+    for key, value in dict:
         print(dict[key])
 
 
